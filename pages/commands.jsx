@@ -3,32 +3,98 @@ import Link from "next/link";
 
 export default function Commands() {
 const commands = [
-  "/autoplay",
-  "/back",
-  "/statistic",
-  "/channel",
-  "/clear",
-  "/dj",
-  "/filter",
-  "/help",
-  "/language",
-  "/loop",
-  "/nowplaying",
-  "/pause",
+  "/afk",
+  "/aşk-ölçer",
+  "/avatar",
+  "/ayarlar",
+  "/ban",
+  "/ban-list",
+  "/banner",
+  "/botlist-ayarla",
+  "/buton-rol",
+  "/capslock-engel",
+  "/çekiliş",
+  "/davet",
+  "/davet-sistemi",
+  "/dogruluk-cesaret",
+  "/embed-oluştur",
+  "/emoji-çek",
+  "/emoji-ekle",
+  "/forceban",
+  "/gelişmiş-sunucu-kur",
+  "/giriş-çıkış",
+  "/giriş-çıkış-kapat",
+  "/giriş-çıkış-mesaj",
+  "/giriş-çıkış-resim",
+  "/güncelleme",
+  "/hesap-koruma",
+  "/istatistik",
+  "/kanal-açıklama",
+  "/kayıt",
+  "/kayıt-sistemi",
+  "/kayıt-sistemi-kapat",
+  "/kick",
+  "/kilitle",
+  "/koruma-sistemleri",
+  "/kullanıcı-bilgi",
+  "/kurucu",
+  "/küfür-engel",
+  "/level",
+  "/level-ekle",
+  "/level-kaldır",
+  "/level-log",
+  "/level-sıralaması",
+  "/level-sistemi",
+  "/medya-kanalı",
+  "/medya-kanalı-sıfırla",
+  "/mod-log",
+  "/mute",
+  "/mute-ayar",
+  "/mute-sistemi",
+  "/mute-sistemi-sıfırla",
+  "/oto-rol",
+  "/oto-rol-kapat",
+  "/oto-tag",
+  "/oto-tag-kapat",
+  "/oylama",
+  "özel-komut",
+  "/özel-oda-aç",
+  "/özel-oda-menü",
+  "/özel-oda-sil",
   "/ping",
-  "/play",
-  "/playlist",
-  "/queue",
-  "/resume",
-  "/save",
-  "/search",
-  "/seek",
-  "/servers",
-  "/shuffle",
-  "/skip",
-  "/stop",
-  "/time",
-  "/volume"
+  "/reklam-engel",
+  "/resimli-giriş-çıkış",
+  "/rol-al",
+  "/rol-oluştur",
+  "/rol-ver",
+  "/sa-as",
+  "/say",
+  "/sayaç",
+  "/sayaç-kapat",
+  "/sil",
+  "/spam-engel",
+  "/sunucu-banner",
+  "/sunucu-bilgi",
+  "/sunucu-pp",
+  "/ticket-sistemi",
+  "/ticket-sistemi-sıfırla",
+  "/unban",
+  "/unmute",
+  "/xp-ekle",
+  "/xp-kaldır",
+  "/yardım",
+  "/yasaklı-kelime",
+  "/yasaklı-kelime-sıfırla",
+  "/yavaş-mod",
+  "/yaz",
+
+
+
+
+
+
+
+
 ];
 
   return (
@@ -39,10 +105,10 @@ const commands = [
       </div>
         <p className="text-xl font-medium text-white">
           <i className="fal fa-cogs text-amber-400 mr-2" />
-         Bot Commands
+         Ztrox Commands
         </p>
         <p className="text-white text-sm text-opacity-50 mb-5">
-        You can get information about the commands of the MusicMaker Bot.
+        You can get information about the commands of the Ztrox
         </p>
 
         <div>
